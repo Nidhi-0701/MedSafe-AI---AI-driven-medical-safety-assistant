@@ -1,73 +1,164 @@
-# Welcome to your Lovable project
+# MedSafe AI – AI-Driven Medical Safety Assistant
 
-## Project info
+MedSafe AI is an intelligent healthcare safety platform designed to help patients, doctors, and healthcare providers detect medication risks, analyze prescriptions, and generate actionable health insights using AI.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+The platform combines OCR, AI analysis, and a smart dashboard to simulate a **mini digital hospital environment** where medicine safety and patient monitoring become easier and faster.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Key Features
 
-**Use Lovable**
+### 📄 AI Prescription Analyzer
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Upload or scan a prescription image and automatically extract medicines using OCR and AI.
 
-Changes made via Lovable will be committed automatically to this repo.
+### ⚠️ Drug Interaction Checker
 
-**Use your preferred IDE**
+Detect dangerous interactions between multiple medicines and warn users about potential risks.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🧠 Symptom Solver
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Enter symptoms and receive AI-generated possible conditions and recommended precautions.
 
-Follow these steps:
+### 💊 Side Effect Monitor
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Track side effects caused by medicines and identify possible causes.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 🚑 Emergency Risk Detector
 
-# Step 3: Install the necessary dependencies.
-npm i
+Analyze symptoms and medication history to detect possible emergency situations.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 📊 Health Insights Dashboard
+
+A centralized dashboard with graphs and insights showing:
+
+* medicine usage trends
+* interaction risks
+* patient safety alerts
+* health analytics
+
+### 👨‍⚕️ Patient Management
+
+Manage patient data, prescriptions, and medication records in one place.
+
+---
+
+## 🏗 System Architecture
+
+Frontend
+React + TypeScript + TailwindCSS + ShadCN UI
+
+Backend
+Python + Flask
+
+AI Layer
+Google Gemini API
+
+OCR
+Tesseract + EasyOCR
+
+Database
+PostgreSQL
+
+---
+
+## ⚙️ Project Structure
+
+```
+medsafe-ai
+│
+├── frontend (React Dashboard)
+│
+├── backend
+│   ├── routes
+│   ├── services
+│   ├── database
+│   ├── utils
+│   └── app.py
+│
+└── README.md
+```
+
+---
+
+## 🧠 AI Capabilities
+
+MedSafe AI uses **Generative AI and rule-based safety checks** to:
+
+* analyze prescriptions
+* identify drug interactions
+* generate health insights
+* assist symptom analysis
+* flag medical risks
+
+---
+
+## 💻 Running the Project Locally
+
+### 1️⃣ Clone Repository
+
+```
+git clone https://github.com/Nidhi-0701/MedSafe-AI---AI-driven-medical-safety-assistant.git
+cd MedSafe-AI---AI-driven-medical-safety-assistant
+```
+
+### 2️⃣ Backend Setup
+
+```
+cd backend
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+
+```
+
+Run backend:
+
+```
+python app.py
+```
+
+---
+
+### 3️⃣ Frontend Setup
+
+```
+cd frontend
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📊 Use Cases
 
-**Use GitHub Codespaces**
+* Hospitals checking prescription safety
+* Patients verifying medicines
+* Pharmacists detecting drug conflicts
+* Health analytics dashboards
+* AI-assisted medical safety systems
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🔒 Disclaimer
 
-This project is built with:
+This project is intended for **educational and research purposes only**.
+It should not replace professional medical advice.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 👩‍💻 Author
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Nidhi Shirsath
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## ⭐ Future Improvements
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+* Real medical drug interaction APIs
+* Patient health history analysis
+* Doctor collaboration system
+* Real-time medical alerts
+* Mobile application
