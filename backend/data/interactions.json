@@ -1,0 +1,26 @@
+[
+  {
+    "medicines": ["paracetamol", "ibuprofen"],
+    "level": "LOW",
+    "explanation": "Both can be used in sequence (e.g. staggered) for fever/pain under guidance; taking together routinely may increase stomach/bleeding risk.",
+    "safety_note": "Use one at a time or as advised by a doctor; do not exceed recommended doses."
+  },
+  {
+    "medicines": ["aspirin", "ibuprofen"],
+    "level": "MEDIUM",
+    "explanation": "Both are NSAIDs. Combined use can increase risk of stomach irritation and bleeding.",
+    "safety_note": "Avoid taking together; consult a doctor before combining."
+  },
+  {
+    "medicines": ["warfarin", "aspirin"],
+    "level": "HIGH",
+    "explanation": "Both affect blood clotting. Combined use significantly increases bleeding risk.",
+    "safety_note": "Do not combine without medical supervision."
+  },
+  {
+    "medicines": ["metformin", "alcohol"],
+    "level": "MEDIUM",
+    "explanation": "Alcohol can increase the risk of lactic acidosis when combined with metformin.",
+    "safety_note": "Limit alcohol; discuss with your doctor."
+  }
+]

@@ -1,0 +1,27 @@
+# MedSafe AI Backend - Dependencies
+# Python 3.9+ recommended
+
+# Web framework
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# Database
+flask-sqlalchemy>=3.1.0
+psycopg2-binary>=2.9.9  # Optional: for PostgreSQL
+
+# Environment & config
+python-dotenv>=1.0.0
+
+# Google Gemini AI
+google-generativeai>=0.3.0
+
+# OCR
+pytesseract>=0.3.10
+Pillow>=10.0.0
+easyocr>=1.7.0  # Alternative OCR engine
+
+# Fuzzy matching for medicine names
+rapidfuzz>=3.5.0
+
+# File upload handling
+werkzeug>=3.0.0
